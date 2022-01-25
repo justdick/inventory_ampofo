@@ -16,7 +16,8 @@ class Product extends Model
         'model_name',
         'wholesale_price',
         'min_price',
-        'price_sold'
+        'price_sold',
+        'deleted_at'
     ];
 
     public function stock(){
